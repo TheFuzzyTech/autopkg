@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.local.Adobe AIR</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Digital Media</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>Adobe AIRSmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>Adobe AIR</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Plugins</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Adobe AIR is a runtime that combines HTML, JavaScript, Adobe Flash, Flex Technologies, and ActionScript to play rich Adobe AIR Internet Applications.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Adobe AIR.png</string>
+		<key>URL</key>
+		<string>https://airdownload.adobe.com/air/mac/download/latest/AdobeAIR.dmg</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.AdobeAIR</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.AdobeAIR</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e635a469d30f3bf06bc320391e6afec07677c429</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeAIR/AdobeAIR.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>e5e9ed6620d67d3af9c099ffd93f6f56a65d7788917c4493c8dc12481eb09be9</string>
+			</dict>
+			<key>com.github.autopkg.pkg.AdobeAIR</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2c27e29eedfcdc3d986d3327115ea6a9ff7e663b</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeAIR/AdobeAIR.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>98db243a312d11a1abbbafecdce39f7b3232170b186a5037a902b222ff99c6dd</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.AdobeAIR</key>
+			<dict>
+				<key>git_hash</key>
+				<string>45e9625a41e7a7602b074963ae4561a5542f0051</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Adobe AIR/Adobe AIR.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>5f11f39bb7b58d62f400233bbe3405ca3e64a89b2f045e03fc045aeeb163940e</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

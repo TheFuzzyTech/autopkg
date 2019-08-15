@@ -1,0 +1,12 @@
+[submodule "recipes/com.github.autopkg.jss-recipes"]
+	path = recipes/com.github.autopkg.jss-recipes
+	url = https://github.com/autopkg/jss-recipes.git
+[submodule "recipes/com.github.autopkg.nstrauss-recipes"]
+	path = recipes/com.github.autopkg.nstrauss-recipes
+	url = https://github.com/autopkg/nstraus-recipes.git
+[submodule "recipes/com.github.autopkg.recipes"]
+	path = recipes/com.github.autopkg.recipes
+	url = https://github.com/autopkg/recipes.git
+[submodule "recipes/com.github.autopkg.rtrouton-recipes"]
+	path = recipes/com.github.autopkg.rtrouton-recipes
+	url = https://github.com/autopkg/rtrouton-recipes.git

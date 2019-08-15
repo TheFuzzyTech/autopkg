@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.local.Adobe AIR</string>
+	<string>local.NFV.Adobe AIR</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -17,7 +17,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>Plugins</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
+		<string>Adobe AIRPolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Adobe AIR is a runtime that combines HTML, JavaScript, Adobe Flash, Flex Technologies, and ActionScript to play rich Adobe AIR Internet Applications.</string>
 		<key>SELF_SERVICE_ICON</key>

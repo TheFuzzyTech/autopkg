@@ -4,7 +4,7 @@
 	<criteria>
 		<criterion>
 			<name>Application Version</name>
-			<priority>1</priority>
+			<priority>0</priority>
 			<and_or>and</and_or>
 			<search_type>is not</search_type>
 			<value>%VERSION%</value>

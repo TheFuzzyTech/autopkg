@@ -2,6 +2,7 @@
 	<general>
 		<name>Install Latest %PROD_NAME%</name>
 		<enabled>true</enabled>
+		<trigger_other>chrome</trigger_other>
 		<frequency>Ongoing</frequency>
 		<category>
 			<name>%POLICY_CATEGORY%</name>

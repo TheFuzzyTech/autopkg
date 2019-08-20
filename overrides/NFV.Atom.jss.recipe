@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Atom.NFV</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Computer Science</string>
+		<key>Comment</key>
+		<string>Note: PlistReader without variable injection in AutoPkg requires setting "version" input key to an empty string, as below.</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>AtomSmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>Atom</string>
+		<key>POLICY_CATEGORY</key>
+		<string>PLTW</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>AtomPolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>A hackable text editor for the 21st Century.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Atom.png</string>
+		<key>version</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.Atom</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jss-recipes.jss.Atom</key>
+			<dict>
+				<key>git_hash</key>
+				<string>213285b15e17e3a443017e281c2aff7bfbbb7804</string>
+				<key>path</key>
+				<string>~/Documents/GitHub/autopkg/recipes/com.github.autopkg.jss-recipes/Atom/Atom.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>b02bdc5428532b0fd0781b26e52b45089b92f66f1fecd2b77473a6985f54e483</string>
+			</dict>
+			<key>io.github.hjuutilainen.download.Atom</key>
+			<dict>
+				<key>git_hash</key>
+				<string>9f46f28a1f7af018d2be70631ffbb0617a1beeb3</string>
+				<key>path</key>
+				<string>~/Documents/GitHub/autopkg/recipes/com.github.autopkg.hjuutilainen-recipes/GitHub/Atom.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>acff31819b7bb31574b00adfa807bb2d36e83ff9460e30b7f4865da20ede7a7f</string>
+			</dict>
+			<key>io.github.hjuutilainen.pkg.Atom</key>
+			<dict>
+				<key>git_hash</key>
+				<string>39b62202a0190f8fd029220b7829b8793635efc3</string>
+				<key>path</key>
+				<string>~/Documents/GitHub/autopkg/recipes/com.github.autopkg.hjuutilainen-recipes/GitHub/Atom.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>5b11aa690ccd1c4cfff85e80e8a7e3ad394d985522325d163ad545bf2cc29877</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

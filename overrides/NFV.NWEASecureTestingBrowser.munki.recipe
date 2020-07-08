@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.NWEASecureTestingBrowser.NFV</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://teach.mapnwea.org/contents/partner/Lockdown%20Browser.dmg</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/nwea</string>
+		<key>NAME</key>
+		<string>NWEASecureTestingBrowser</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>NWEA Secure Testing Browser</string>
+			<key>display_name</key>
+			<string>NWEA Secure Testing Browser</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.nfv.munki.NWEASecureTestingBrowser</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.nfv.munki.NWEASecureTestingBrowser</key>
+			<dict>
+				<key>git_hash</key>
+				<string>6cb598c45790a5bdabb423ae18e1fead7374ca0d</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.asnydernfv.Recipes/NWEA Secure Testing Browser/NWEASecureTestingBrowser.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>57d45c381788788dd31557e45f3b8107021ad4c44b2e2dd6e827c2ea73ff2aac</string>
+			</dict>
+			<key>com.github.nstrauss.download.NWEASecureTestingBrowser</key>
+			<dict>
+				<key>git_hash</key>
+				<string>c5862b69b614fb49d2faa770d0fa0635d7f65b3a</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.nstrauss-recipes/NWEA Secure Testing Browser/NWEASecureTestingBrowser.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>c71dd1416ee76643b5bf5c880d98f4f284553625e6c4822697f1326415dc9d0d</string>
+			</dict>
+			<key>com.github.nstrauss.pkg.NWEASecureTestingBrowser</key>
+			<dict>
+				<key>git_hash</key>
+				<string>c5862b69b614fb49d2faa770d0fa0635d7f65b3a</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.nstrauss-recipes/NWEA Secure Testing Browser/NWEASecureTestingBrowser.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>f6f590bd79d351b33c505e59383cae25dd21e3eb65233b4b349d450e236348d7</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

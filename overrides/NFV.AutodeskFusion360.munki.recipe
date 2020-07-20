@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.AutodeskFusion360.NFV</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://dl.appstreaming.autodesk.com/production/installers/Autodesk%20Fusion%20360%20Admin%20Install.pkg</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/autodesk</string>
+		<key>NAME</key>
+		<string>AutodeskFusion360</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>AutodeskFusion360</string>
+			<key>display_name</key>
+			<string>AutodeskFusion360</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.nfv.munki.AutodeskFusion360</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.nfv.munki.AutodeskFusion360</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e706c9d76cb6d8a000dbd687571defa37891a0a3</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.asnydernfv.Recipes/AutodeskFusion360/AutodeskFusion360.munki.recipe</string>
+				<key>sha256_hash</key>
+				<string>8900dd87fa911b322ee97cfe2e586692c62380cd4e467bc19bf948557b89007a</string>
+			</dict>
+			<key>com.github.nstrauss.download.AutodeskFusion360</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5dae317e1a66e8718ca11392264c492866d4e41a</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.nstrauss-recipes/Autodesk Fusion 360/AutodeskFusion360.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>66a871f02bb30e767811de6ab8151d438f56011b7187165278dccbb19a59bd57</string>
+			</dict>
+			<key>com.github.nstrauss.pkg.AutodeskFusion360</key>
+			<dict>
+				<key>git_hash</key>
+				<string>74531fc1ddb3d2b72a64fe60bf965db3a9ebc080</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.nstrauss-recipes/Autodesk Fusion 360/AutodeskFusion360.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>3bb2918d5e95e60b2dfafbbbb285d9f187434627c872547f455a3f19c53e1d15</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
